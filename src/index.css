@@ -36,7 +36,7 @@ body {
   pointer-events: none;
 }
 
-.circle.circle-active {
+.active {
   background-image: url(raccoon.jpeg);
   background-size: contain;
 }

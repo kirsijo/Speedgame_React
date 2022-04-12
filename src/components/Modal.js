@@ -1,14 +1,14 @@
 import React from "react";
 
-export default function Modal(props) {
+const Modal = (props) => {
   return (
     <div className="Modal">
-      <p>Game Over</p>
+      <h2>Game Over</h2>
       <p>Score: {props.score}</p>
       <p className="result" name="result"></p>
-      <button type="button" className="closebutton" id="close">
-        CLOSE
-      </button>
+      <button onClick={props.click}>CLOSE</button>
     </div>
   );
-}
+};
+
+export default Modal;
