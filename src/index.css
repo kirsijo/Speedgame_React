@@ -11,6 +11,15 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
+#your-score {
+  font-size: 2rem;
+  margin: 40px;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
 .circles {
   display: flex;
   flex-wrap: wrap;
@@ -33,11 +42,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  pointer-events: none;
+  cursor: url(./images/fish.svg), crosshair;
 }
 
 .active {
-  background-image: url(raccoon.jpeg);
+  background-image: url(./images/raccoon.jpeg);
   background-size: contain;
 }
 
@@ -52,4 +61,28 @@ button {
   padding: 2rem;
   cursor: pointer;
   font-size: 1.5rem;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.Modal {
+  background: white;
+  padding: 1rem;
+  width: 40%;
+  min-height: 25%;
+  border-radius: 5px;
+  position: relative;
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
