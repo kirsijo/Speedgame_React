@@ -5,9 +5,9 @@ import Circle from "./components/Circle";
 import Button from "./components/Button";
 import startMusic from "./sounds/banjos.mp3";
 import stopMusic from "./sounds/aww-sound-effect.mp3";
-//import clickSound from "./sounds/crunch.wav";
+import click from "./sounds/crunch2.mp3";
 
-//let clickSound = new Audio(click);
+let clickSound = new Audio(click);
 let startSound = new Audio(startMusic);
 let stopSound = new Audio(stopMusic);
 
@@ -30,13 +30,13 @@ export default class App extends Component {
 
   timer = undefined;
 
-  /*clickPlay = () => {
+  clickPlay = () => {
     if (clickSound.paused) {
       clickSound.play();
     } else {
       clickSound.currentTime = 0;
     }
-  };*/
+  };
 
   /*startHandler = (event) => {
     event.preventDefault();
@@ -47,7 +47,7 @@ export default class App extends Component {
   };*/
 
   addScore = (i) => {
-    // clickSound.play();
+    clickSound.play();
     console.log(i, this.state.current);
     if (this.state.current !== i) {
       this.stopHandler();
