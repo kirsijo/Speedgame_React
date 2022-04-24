@@ -4,7 +4,7 @@ const Modal = (props) => {
   let message = "";
   if (props.score <= 50) {
     message = "Raccoons are still hungry.";
-  } else if (props.score >= 51 || props.score <= 100) {
+  } else if (props.score >= 51 && props.score <= 100) {
     message = "More snacks please.";
   } else {
     message = "Raccoons love you!";
