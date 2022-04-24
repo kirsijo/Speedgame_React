@@ -108,6 +108,9 @@ export default class App extends Component {
       case "hard":
         circlesArray = Array.from({ length: 7 }, (x, i) => i);
         break;
+      default:
+        //default to easy
+        circlesArray = Array.from({ length: 3 }, (x, i) => i);
     }
     this.setState({
       circles: circlesArray,
