@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "./static/css/main.412386d1.css",
+    "main.js": "./static/js/main.97599340.js",
+    "static/media/banjos.mp3": "./static/media/banjos.f1fc4e43018812c29779.mp3",
+    "static/media/aww-sound-effect.mp3": "./static/media/aww-sound-effect.4c991c62f62267ed493d.mp3",
+    "static/media/crunch2.mp3": "./static/media/crunch2.cd16ec5b7fcc49dccb39.mp3",
+    "static/media/fish.svg": "./static/media/fish.72384eb3eef78701640b.svg",
+    "index.html": "./index.html",
+    "main.412386d1.css.map": "./static/css/main.412386d1.css.map",
+    "main.97599340.js.map": "./static/js/main.97599340.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.412386d1.css",
+    "static/js/main.97599340.js"
+  ]
+}
